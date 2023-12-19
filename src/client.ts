@@ -96,7 +96,7 @@ function getBaseUri(server: Server = 'default', config: Configuration): string {
       return 'https://tshnuiufz7.execute-api.us-east-1.amazonaws.com/test';
     }
     if (server === 'access token server') {
-      return 'https://auth.celitech.net/oauth2';
+      return 'https://test-core-partners.auth.us-east-1.amazoncognito.com/oauth2';
     }
   }
   throw new Error('Could not get Base URL. Invalid environment or server.');
